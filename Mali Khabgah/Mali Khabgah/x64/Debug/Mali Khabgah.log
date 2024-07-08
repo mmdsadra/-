@@ -1,0 +1,6 @@
+﻿  Module.ixx
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(700,5): error MSB6006: "CL.exe" exited with code 2.
+C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah\Module.ixx(1,1): error C3378: a declaration can be exported only from a module interface unit
+C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah\Module.ixx(1,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah\Module.ixx(1,15): error C2146: syntax error: missing ';' before identifier 'Module'
+C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah\Module.ixx(3,1): error C3378: a declaration can be exported only from a module interface unit
