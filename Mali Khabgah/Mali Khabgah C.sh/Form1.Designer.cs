@@ -28,260 +28,255 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.checkboxes = new System.Windows.Forms.CheckedListBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.reasons = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.savebox = new System.Windows.Forms.ListBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.SuspendLayout();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            checkBox4 = new CheckBox();
+            checkBox5 = new CheckBox();
+            button1 = new Button();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            checkboxes = new CheckedListBox();
+            label2 = new Label();
+            groupBox1 = new GroupBox();
+            label3 = new Label();
+            reasons = new TextBox();
+            groupBox2 = new GroupBox();
+            groupBox3 = new GroupBox();
+            button2 = new Button();
+            savebox = new ListBox();
+            button3 = new Button();
+            groupBox4 = new GroupBox();
+            richTextBox1 = new RichTextBox();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
+            groupBox4.SuspendLayout();
+            SuspendLayout();
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 40);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(58, 24);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "سینا";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(6, 40);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(58, 24);
+            checkBox1.TabIndex = 0;
+            checkBox1.Text = "سینا";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(6, 70);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(63, 24);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "صدرا";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(6, 70);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(63, 24);
+            checkBox2.TabIndex = 1;
+            checkBox2.Text = "صدرا";
+            checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(6, 100);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(78, 24);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "مسعود";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(6, 100);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(78, 24);
+            checkBox3.TabIndex = 2;
+            checkBox3.Text = "مسعود";
+            checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 130);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(67, 24);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "مهدی";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new Point(6, 130);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new Size(67, 24);
+            checkBox4.TabIndex = 3;
+            checkBox4.Text = "مهدی";
+            checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(6, 160);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(67, 24);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "یونس";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.AutoSize = true;
+            checkBox5.Location = new Point(6, 160);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new Size(67, 24);
+            checkBox5.TabIndex = 4;
+            checkBox5.Text = "یونس";
+            checkBox5.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(6, 284);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "سیو";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.SaveData);
+            button1.Location = new Point(6, 284);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 5;
+            button1.Text = "سیو";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += SaveData;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(20, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "0";
+            textBox1.Location = new Point(20, 45);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 6;
+            textBox1.Text = "0";
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 20);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "پول";
+            label1.AutoSize = true;
+            label1.Location = new Point(20, 22);
+            label1.Name = "label1";
+            label1.Size = new Size(32, 20);
+            label1.TabIndex = 7;
+            label1.Text = "پول";
             // 
             // checkboxes
             // 
-            this.checkboxes.CheckOnClick = true;
-            this.checkboxes.FormattingEnabled = true;
-            this.checkboxes.Items.AddRange(new object[] {
-            "سینا",
-            "صدرا",
-            "مسعود",
-            "مهدی",
-            "یونس"});
-            this.checkboxes.Location = new System.Drawing.Point(20, 98);
-            this.checkboxes.Name = "checkboxes";
-            this.checkboxes.Size = new System.Drawing.Size(150, 114);
-            this.checkboxes.Sorted = true;
-            this.checkboxes.TabIndex = 8;
+            checkboxes.CheckOnClick = true;
+            checkboxes.FormattingEnabled = true;
+            checkboxes.Items.AddRange(new object[] { "سینا", "صدرا", "مسعود", "مهدی", "یونس" });
+            checkboxes.Location = new Point(20, 98);
+            checkboxes.Name = "checkboxes";
+            checkboxes.Size = new Size(150, 114);
+            checkboxes.Sorted = true;
+            checkboxes.TabIndex = 8;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 20);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "خریدار";
+            label2.AutoSize = true;
+            label2.Location = new Point(20, 75);
+            label2.Name = "label2";
+            label2.Size = new Size(48, 20);
+            label2.TabIndex = 9;
+            label2.Text = "خریدار";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.reasons);
-            this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Controls.Add(this.checkboxes);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(319, 319);
-            this.groupBox1.TabIndex = 10;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "اضافه";
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(reasons);
+            groupBox1.Controls.Add(groupBox2);
+            groupBox1.Controls.Add(checkboxes);
+            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Location = new Point(12, 12);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(319, 319);
+            groupBox1.TabIndex = 10;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "اضافه";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 215);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 20);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "دلیل:";
+            label3.AutoSize = true;
+            label3.Location = new Point(20, 215);
+            label3.Name = "label3";
+            label3.Size = new Size(40, 20);
+            label3.TabIndex = 12;
+            label3.Text = "دلیل:";
             // 
             // reasons
             // 
-            this.reasons.Location = new System.Drawing.Point(20, 238);
-            this.reasons.Name = "reasons";
-            this.reasons.Size = new System.Drawing.Size(293, 27);
-            this.reasons.TabIndex = 11;
+            reasons.Location = new Point(20, 238);
+            reasons.Name = "reasons";
+            reasons.Size = new Size(293, 27);
+            reasons.TabIndex = 11;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.checkBox5);
-            this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Controls.Add(this.checkBox4);
-            this.groupBox2.Controls.Add(this.checkBox3);
-            this.groupBox2.Location = new System.Drawing.Point(176, 22);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(137, 190);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "مصرف کنندگان";
+            groupBox2.Controls.Add(checkBox1);
+            groupBox2.Controls.Add(checkBox5);
+            groupBox2.Controls.Add(checkBox2);
+            groupBox2.Controls.Add(checkBox4);
+            groupBox2.Controls.Add(checkBox3);
+            groupBox2.Location = new Point(176, 22);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(137, 190);
+            groupBox2.TabIndex = 10;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "مصرف کنندگان";
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.savebox);
-            this.groupBox3.Location = new System.Drawing.Point(337, 12);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(476, 560);
-            this.groupBox3.TabIndex = 11;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "لیست سیو شده";
+            groupBox3.Controls.Add(button2);
+            groupBox3.Controls.Add(savebox);
+            groupBox3.Location = new Point(337, 12);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(476, 560);
+            groupBox3.TabIndex = 11;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "لیست سیو شده";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(16, 525);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "حذف";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            button2.Location = new Point(16, 525);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 1;
+            button2.Text = "حذف";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // savebox
             // 
-            this.savebox.FormattingEnabled = true;
-            this.savebox.ItemHeight = 20;
-            this.savebox.Location = new System.Drawing.Point(16, 28);
-            this.savebox.Name = "savebox";
-            this.savebox.ScrollAlwaysVisible = true;
-            this.savebox.Size = new System.Drawing.Size(454, 484);
-            this.savebox.TabIndex = 0;
+            savebox.FormattingEnabled = true;
+            savebox.ItemHeight = 20;
+            savebox.Location = new Point(16, 28);
+            savebox.Name = "savebox";
+            savebox.ScrollAlwaysVisible = true;
+            savebox.Size = new Size(454, 484);
+            savebox.TabIndex = 0;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 543);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 29);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "حساب";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            button3.Location = new Point(12, 543);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 13;
+            button3.Text = "حساب";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.richTextBox1);
-            this.groupBox4.Location = new System.Drawing.Point(813, 12);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(510, 560);
-            this.groupBox4.TabIndex = 14;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "حساب";
+            groupBox4.Controls.Add(richTextBox1);
+            groupBox4.Location = new Point(813, 12);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(510, 560);
+            groupBox4.TabIndex = 14;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "حساب";
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(6, 28);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(498, 526);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            richTextBox1.Location = new Point(6, 28);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(498, 526);
+            richTextBox1.TabIndex = 0;
+            richTextBox1.Text = "";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1335, 584);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
-            this.Text = "حساب خوابگاه";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1335, 584);
+            Controls.Add(groupBox4);
+            Controls.Add(button3);
+            Controls.Add(groupBox3);
+            Controls.Add(groupBox1);
+            Name = "Form1";
+            Text = "حساب خوابگاه";
+            Load += Form1_Load;
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox4.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion

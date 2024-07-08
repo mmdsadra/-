@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zeus\\source\\repos\\Mali Khabgah\\Mali Khabgah C.sh\\Mali Khabgah C.sh.csproj",
+      "projectUniqueName": "C:\\Users\\Zeus\\Source\\Repos\\Go-dutch\\new\\Mali Khabgah\\Mali Khabgah C.sh\\Mali Khabgah C.sh.csproj",
       "projectName": "Mali Khabgah C.sh",
-      "projectPath": "C:\\Users\\Zeus\\source\\repos\\Mali Khabgah\\Mali Khabgah C.sh\\Mali Khabgah C.sh.csproj",
+      "projectPath": "C:\\Users\\Zeus\\Source\\Repos\\Go-dutch\\new\\Mali Khabgah\\Mali Khabgah C.sh\\Mali Khabgah C.sh.csproj",
       "packagesPath": "C:\\Users\\Zeus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zeus\\source\\repos\\Mali Khabgah\\Mali Khabgah C.sh\\obj\\",
+      "outputPath": "C:\\Users\\Zeus\\Source\\Repos\\Go-dutch\\new\\Mali Khabgah\\Mali Khabgah C.sh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zeus\\AppData\\Roaming\\NuGet\\NuGet.Config",

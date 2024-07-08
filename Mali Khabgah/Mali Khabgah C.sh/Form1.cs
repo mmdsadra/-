@@ -2,11 +2,11 @@ namespace Mali_Khabgah_C.sh
 {
     public partial class Form1 : Form
     {
-        string[] names = { "sina", "sadra", "masood", "mehdi", "younes"};
-        string pathsave = @"D:\Users\Zeus\Desktop\daneshgah\Save money datas.txt";
+        string[] names = { "sina", "sadra", "masood", "mehdi", "younes" };
+        string pathsave = @"";//path to save
         struct Payment
         {
-           
+
             int payerindex;
             List<int> users = new();
             float payedmoney;
@@ -42,14 +42,14 @@ namespace Mali_Khabgah_C.sh
             }
 
             public void setusers(params int[] ar)
-            {               
-                users = ar.ToList();                
+            {
+                users = ar.ToList();
             }
 
             public List<int> getusersar()
             {
                 return users;
-                
+
             }
 
             public void setisfull(bool b)
@@ -74,7 +74,7 @@ namespace Mali_Khabgah_C.sh
             {
                 string[] readfile = File.ReadAllLines(pathsave);
                 int i = 0;
-                foreach(string line in readfile)
+                foreach (string line in readfile)
                 {
                     string str = line;
                     payments[i].setpayer(int.Parse(str.Split(",")[0]));
@@ -89,14 +89,14 @@ namespace Mali_Khabgah_C.sh
                     payments[i].setusers(inuse);
                     payments[i].setisfull(true);
                     string making = names[payments[i].getpayer()] + ":" + payments[i].getmoney().ToString() + ":";
-                    
+
                     for (int j = 0; j < 5; j++)
                     {
                         if (inuse[j] == 1)
                         {
                             making += names[j] + ":";
                         }
-                        
+
                     }
                     making += str.Split(",")[2 + maxim + 1].ToString();
                     savebox.Items.Add(making);
@@ -113,7 +113,7 @@ namespace Mali_Khabgah_C.sh
         public void loader()
         {
 
-            for (int j = 0;j < 1000; j++)
+            for (int j = 0; j < 1000; j++)
             {
                 payments[j].setisfull(false);
             }
@@ -130,7 +130,7 @@ namespace Mali_Khabgah_C.sh
                 {
                     inuse[int.Parse(str.Split(",")[j + 2])] = 1;
                 }
-                
+
                 payments[i].setusers(inuse);
                 payments[i].setisfull(true);
                 i++;
@@ -165,7 +165,7 @@ namespace Mali_Khabgah_C.sh
             }
             users += ":" + reasonsin;
             //save:
-            
+
             File.AppendAllText(pathsave, numberofpayer.ToString() + ",");
             File.AppendAllText(pathsave, money.ToString() + ",");
             File.AppendAllText(pathsave, numberofusers.ToString() + ",");
@@ -175,7 +175,7 @@ namespace Mali_Khabgah_C.sh
                 {
                     File.AppendAllText(pathsave, i.ToString() + ",");
                 }
-              
+
             }
             File.AppendAllText(pathsave, reasonsin);
             File.AppendAllText(pathsave, "\n");
@@ -213,7 +213,7 @@ namespace Mali_Khabgah_C.sh
         private void button3_Click(object sender, EventArgs e)
         {
             float[] indade = new float[5];
-            float[,] outdade = new float[5,5];
+            float[,] outdade = new float[5, 5];
             for (int i = 0; i < 1000; i++)
             {
                 int dade = payments[i].getpayer();
@@ -230,7 +230,7 @@ namespace Mali_Khabgah_C.sh
                     if (gerefte[j] == 1)
                         userscounter++;
                 }
-               
+
                 indade[dade] += pool;
                 for (int j = 0; j < 5; j++)
                 {
@@ -254,13 +254,14 @@ namespace Mali_Khabgah_C.sh
             {
                 for (int j = 0; j < 5; j++)
                 {
-                    if (outdade[j,i] - outdade[i,j] > 0)
+                    if (outdade[j, i] - outdade[i, j] > 0)
                     {
                         richTextBox1.Text += names[i].ToString() + " bede be " + names[j].ToString() + " " + (outdade[j, i] - outdade[i, j]).ToString() + " tooman \t";
                     }
-                }richTextBox1.Text += "\n";
+                }
+                richTextBox1.Text += "\n";
             }
-            
+
         }
 
         private void checkboxes_SelectedIndexChanged_1(object sender, EventArgs e)
@@ -275,6 +276,11 @@ namespace Mali_Khabgah_C.sh
                 }
             }
             checkboxes.SetItemChecked(x, true);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
