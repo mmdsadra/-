@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mali Khabgah C.sh")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a60573ce80ec774b6157521c1ad03d44d22ca2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mali Khabgah C.sh")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mali Khabgah C.sh")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,3 +15,20 @@ C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windo
 C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.genruntimeconfig.cache
 C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\ref\Mali Khabgah C.sh.dll
 C:\Users\Zeus\source\repos\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.sourcelink.json
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\bin\Debug\net6.0-windows\Mali Khabgah C.sh.exe
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\bin\Debug\net6.0-windows\Mali Khabgah C.sh.deps.json
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\bin\Debug\net6.0-windows\Mali Khabgah C.sh.runtimeconfig.json
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\bin\Debug\net6.0-windows\Mali Khabgah C.sh.dll
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\bin\Debug\net6.0-windows\Mali Khabgah C.sh.pdb
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali_Khabgah_C.sh.Form1.resources
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.csproj.GenerateResource.cache
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.AssemblyInfoInputs.cache
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.AssemblyInfo.cs
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.csproj.CoreCompileInputs.cache
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.sourcelink.json
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.dll
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\refint\Mali Khabgah C.sh.dll
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.pdb
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\Mali Khabgah C.sh.genruntimeconfig.cache
+C:\Users\Zeus\source\repos\Go-dutch\new\Mali Khabgah\Mali Khabgah C.sh\obj\Debug\net6.0-windows\ref\Mali Khabgah C.sh.dll

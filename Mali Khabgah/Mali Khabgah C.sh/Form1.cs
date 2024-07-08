@@ -3,7 +3,8 @@ namespace Mali_Khabgah_C.sh
     public partial class Form1 : Form
     {
         string[] names = { "sina", "sadra", "masood", "mehdi", "younes" };
-        string pathsave = @"";//path to save
+        string pathsave = System.Reflection.Assembly.GetExecutingAssembly().Location;//path to save
+        
         struct Payment
         {
 
@@ -70,6 +71,7 @@ namespace Mali_Khabgah_C.sh
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            pathsave = pathsave.Remove(pathsave.Length - "Mali Khabgah C.sh.dll".Length) + "savetext.txt";
             if (File.Exists(pathsave))
             {
                 string[] readfile = File.ReadAllLines(pathsave);
@@ -105,7 +107,9 @@ namespace Mali_Khabgah_C.sh
             }
             else
             {
-                Close();
+                FileStream saveloc = new FileStream(pathsave, FileMode.CreateNew);
+                saveloc.Close();
+
             }
 
         }
