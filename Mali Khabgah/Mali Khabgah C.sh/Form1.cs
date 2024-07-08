@@ -4,7 +4,7 @@ namespace Mali_Khabgah_C.sh
     {
         string[] names = { "sina", "sadra", "masood", "mehdi", "younes" };
         string pathsave = System.Reflection.Assembly.GetExecutingAssembly().Location;//path to save
-        
+
         struct Payment
         {
 
@@ -285,6 +285,11 @@ namespace Mali_Khabgah_C.sh
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void deleteuserB_Click(object sender, EventArgs e)
+        {
+            //delete user
         }
     }
 }

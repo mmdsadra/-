@@ -48,6 +48,7 @@
             button3 = new Button();
             groupBox4 = new GroupBox();
             richTextBox1 = new RichTextBox();
+            deleteuserB = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -154,6 +155,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(deleteuserB);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(reasons);
             groupBox1.Controls.Add(groupBox2);
@@ -258,6 +260,16 @@
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = "";
             // 
+            // deleteuserB
+            // 
+            deleteuserB.Location = new Point(219, 284);
+            deleteuserB.Name = "deleteuserB";
+            deleteuserB.Size = new Size(94, 29);
+            deleteuserB.TabIndex = 13;
+            deleteuserB.Text = "حذف کاربر";
+            deleteuserB.UseVisualStyleBackColor = true;
+            deleteuserB.Click += deleteuserB_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -301,5 +313,6 @@
         private Button button3;
         private GroupBox groupBox4;
         private RichTextBox richTextBox1;
+        private Button deleteuserB;
     }
 }
